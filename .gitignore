@@ -1,0 +1,19 @@
+# macOS-specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon files
+Icon?
+._*
+
+# Spotlight and Trash
+.Spotlight-V100
+.Trashes
+
+# macOS Temp files
+*.swp
+*.lock
+*.tmp
+*.bak
+*.orig
