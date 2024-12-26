@@ -21,7 +21,7 @@ def bfs(tomatoes):
             if graph[nk][nx][ny] == -1:
                 continue
 
-            if graph[nk][nx][ny] == 0:
+            if graph[nk][nx][ny] == 1:
                 graph[nk][nx][ny] = graph[k][x][y] + 1
                 q.append((nk, nx, ny))
 
