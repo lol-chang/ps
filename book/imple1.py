@@ -13,7 +13,7 @@ for c in comm:
         if c == move_types[i]:
             nx = x + dx[i]
             ny = y + dy[i]
-        
+    # 파이썬 변수 스코프가 좀 이상하네..        
     if nx < 1 or ny < 1 or nx > n or ny > n:
         continue
         
